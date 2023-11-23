@@ -55,10 +55,10 @@ const Navbar = () => {
                     </div>
                 </nav>
 
-                <Routes>
-                    <Route exact path='/' Component={Hero} />
+                {/* <Routes> */}
+                    {/* <Route exact path='/' Component={Hero} /> */}
                     {/* <Route path='/Feedback' Component={Feedback} /> */}
-                    </Routes>
+                    {/* </Routes> */}
             </Router>
 
         </>

@@ -10,7 +10,7 @@ import ios from '../imgs/ios.png';
 const Sign = () => {
     return (
         <>
-            <div className='sign mt-5 mb-5 col-5 m-auto '>
+            <div className='login mt-5 mb-5 col-5 m-auto '>
                 <div className="container">
                     <h1 className="fs-1 text-capitalize">get started now</h1>
 

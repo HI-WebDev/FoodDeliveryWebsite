@@ -23,9 +23,6 @@ body {
   background-color: #e94339;
 }
 
-.hero {
-  height: calc(100vh - 69px);
-}
 .hero .lft .subTitle {
   color: #191720;
 }
