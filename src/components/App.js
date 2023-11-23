@@ -6,12 +6,14 @@ import Navbar from "./Navbar";
 // import Newsletter from "./Newsletter";
 // import Order from "./Order";
 import Login from './Login'
+import Sign from "./Sign";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Login />
+      {/* <Login /> */}
+      <Sign />
       {/* <Hero />
       <Menu />
       <Order />
