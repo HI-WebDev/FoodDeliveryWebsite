@@ -183,4 +183,59 @@ body {
 }
 .menu .menuBox .motor {
   width: 45%;
+}
+
+.login form .input input {
+  box-shadow: none;
+  border: 1px solid #000;
+}
+.login form .input input::-moz-placeholder {
+  color: rgba(217, 217, 217, 0.8509803922);
+}
+.login form .input input::placeholder {
+  color: rgba(217, 217, 217, 0.8509803922);
+}
+.login form .input input:focus {
+  border-color: #000;
+}
+.login form .form-check .form-check-input {
+  box-shadow: none;
+  cursor: pointer;
+}
+.login form .submit {
+  background-color: #3a5b22;
+  color: #fff;
+}
+.login form .submit:hover {
+  opacity: 0.8;
+}
+.login form .or {
+  position: relative;
+}
+.login form .or:before {
+  content: "";
+  position: absolute;
+  background-color: #ddd;
+  width: 48%;
+  height: 2px;
+  top: 50%;
+  left: 0%;
+}
+.login form .or:after {
+  content: "";
+  position: absolute;
+  background-color: #ddd;
+  width: 48.2%;
+  height: 2px;
+  top: 50%;
+  right: 0%;
+}
+.login .outils .outil {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+.login .last a {
+  list-style: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

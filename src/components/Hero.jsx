@@ -8,7 +8,7 @@ import Btn from "./Btn";
 export default function Hero() {
     return (
         <>
-            <div className="hero d-flex align-items-center ">
+            <div id="hhero" className="hero d-flex align-items-center ">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-lg-6 d-flex align-items-center">
